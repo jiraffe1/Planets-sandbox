@@ -34,6 +34,7 @@ function draw(){
     if(slowMo) {
         fill(255);
         text("SlowMo enabled. Press s to exit SlowMo", width * 0.7, 20);
+    }
     if(!paused) {
         for (var P2JSi = 0; P2JSi < celestialBodies.length; P2JSi++){
             var cb = celestialBodies[P2JSi];
