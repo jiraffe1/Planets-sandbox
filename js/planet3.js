@@ -25,7 +25,7 @@ function draw(){
     background(10);
     text("", width - 120, height - 20);
     text("click anywhere to create a planet, press any key to toggle sun creation", 150, 20);
-    text("hover over a planet and press q to see its stats or press d to devare it", 150, 40);
+    text("hover over a planet and press q to see its stats or press d to delete it", 150, 40);
     drawInspector();
     for (var P2JSi = 0; P2JSi < celestialBodies.length; P2JSi++){
         var cb = celestialBodies[P2JSi];
